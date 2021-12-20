@@ -1,0 +1,125 @@
+{
+  "5872" : {
+    "deviceAddress" : "iPad",
+    "deviceId" : 5872,
+    "deviceStatus" : "OFFLINE",
+    "isAdminDevice" : false,
+    "onlineSince" : "2021-10-29T22:05:57.2025711Z",
+    "waiterDeviceId" : 5872,
+    "waiterInfo" : [ {
+      "employeeId" : 0,
+      "waiterName" : "iPad"
+    } ]
+  },
+  "5874" : {
+    "deviceAddress" : "Roweb’s iPad",
+    "deviceId" : 5874,
+    "deviceStatus" : "ONLINE",
+    "isAdminDevice" : true,
+    "onlineSince" : "2021-12-15T17:19:03.5911629Z",
+    "waiterDeviceId" : 16099,
+    "waiterInfo" : [ {
+      "employeeId" : 1315,
+      "waiterName" : "mada test"
+    }, {
+      "employeeId" : 0,
+      "waiterName" : "Roweb’s iPad"
+    } ]
+  },
+  "5875" : {
+    "deviceAddress" : "iPad Air 3",
+    "deviceId" : 5875,
+    "deviceStatus" : "OFFLINE",
+    "isAdminDevice" : false,
+    "onlineSince" : "2021-11-25T08:37:54.1352618Z",
+    "waiterDeviceId" : 5875,
+    "waiterInfo" : [ {
+      "employeeId" : 0,
+      "waiterName" : "iPad Air 3"
+    } ]
+  },
+  "5879" : {
+    "deviceAddress" : "iPad",
+    "deviceId" : 5879,
+    "deviceStatus" : "OFFLINE",
+    "isAdminDevice" : false,
+    "onlineSince" : "2021-09-22T09:53:11.0099681Z",
+    "waiterDeviceId" : 5879,
+    "waiterInfo" : [ {
+      "employeeId" : 0,
+      "waiterName" : "iPad"
+    } ]
+  },
+  "5896" : {
+    "deviceAddress" : "iPad Air",
+    "deviceId" : 5896,
+    "deviceStatus" : "OFFLINE",
+    "isAdminDevice" : false,
+    "onlineSince" : "2021-11-07T15:13:25.8207157Z",
+    "waiterDeviceId" : 5896,
+    "waiterInfo" : [ {
+      "employeeId" : 0,
+      "waiterName" : "iPad Air"
+    } ]
+  },
+  "5958" : {
+    "deviceAddress" : "iPad Air 2",
+    "deviceId" : 5958,
+    "deviceStatus" : "ONLINE",
+    "isAdminDevice" : true,
+    "onlineSince" : "2021-12-15T12:17:40.5655594Z",
+    "waiterDeviceId" : 16092,
+    "waiterInfo" : [ {
+      "employeeId" : 1262,
+      "waiterName" : "danutzu x"
+    }, {
+      "employeeId" : 0,
+      "waiterName" : "iPad Air 2"
+    } ]
+  },
+  "6020" : {
+    "deviceAddress" : "iPad 7",
+    "deviceId" : 6020,
+    "deviceStatus" : "ONLINE",
+    "isAdminDevice" : false,
+    "onlineSince" : "2021-12-15T12:18:02.7397064Z",
+    "waiterDeviceId" : 16093,
+    "waiterInfo" : [ {
+      "employeeId" : 0,
+      "waiterName" : " "
+    }, {
+      "employeeId" : 0,
+      "waiterName" : "iPad 7"
+    } ]
+  },
+  "6027" : {
+    "deviceAddress" : "iPad Pro (9.7-inch)",
+    "deviceId" : 6027,
+    "deviceStatus" : "ONLINE",
+    "isAdminDevice" : true,
+    "onlineSince" : "2021-12-20T15:46:10.7254761Z",
+    "waiterDeviceId" : 16152,
+    "waiterInfo" : [ {
+      "employeeId" : 1263,
+      "waiterName" : "danutzu l"
+    }, {
+      "employeeId" : 0,
+      "waiterName" : "iPad Pro (9.7-inch)"
+    } ]
+  },
+  "6028" : {
+    "deviceAddress" : "iPad Pro (9.7-inch)",
+    "deviceId" : 6028,
+    "deviceStatus" : "ONLINE",
+    "isAdminDevice" : true,
+    "onlineSince" : "2021-12-20T16:02:43.2598881Z",
+    "waiterDeviceId" : 16153,
+    "waiterInfo" : [ {
+      "employeeId" : 1263,
+      "waiterName" : "danutzu l"
+    }, {
+      "employeeId" : 0,
+      "waiterName" : "iPad Pro (9.7-inch)"
+    } ]
+  }
+}
