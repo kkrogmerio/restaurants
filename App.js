@@ -24,7 +24,7 @@ class App extends React.Component {
   }
   componentDidMount(){
     this.props.getRestaurantsData();
-
+    console.log("BAAAAAAAAAAA");
   }
   render() {
     

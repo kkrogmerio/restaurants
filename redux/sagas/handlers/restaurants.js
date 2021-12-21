@@ -1,6 +1,6 @@
 import {call, put} from 'redux-saga/effects';
 import {requestGetRestaurants} from '../requests/restaurants';
-import {GET_RESTAURANTS} from '../../restaurants';
+import {SET_RESTAURANTS_DATA} from '../../restaurants';
 export function* handleGetRestaurants() {
   try {
     const response = yield call(requestGetRestaurants);
@@ -25,8 +25,8 @@ export function* handleGetRestaurants() {
         waiterInfoData,
       });
     }
-
-    yield put({type: GET_RESTAURANTS, restaurantsData});
+    
+    yield put({type: SET_RESTAURANTS_DATA, restaurantsData});
   } catch (error) {
     console.log(error);
   }
