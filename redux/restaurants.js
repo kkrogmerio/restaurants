@@ -1,13 +1,15 @@
 export const GET_RESTAURANTS="GET_RESTAURANTS";
 export const SET_RESTAURANTS_DATA="SET_RESTAURANTS_DATA";
 const initialState={
-    restaurants:undefined
+    restaurantsData:undefined
 };
 export default (state=initialState,action) =>{
     switch(action.type){
         case GET_RESTAURANTS:
-            const {restaurants}=action;
-            return {restaurants}
+            
+            const {restaurantsData}=action;
+         
+            return {restaurantsData}
         default:
             return state;
     }

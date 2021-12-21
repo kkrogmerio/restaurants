@@ -1,29 +1,11 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
+
 
 import React from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
   View,
-  Text,
-  StatusBar,
 } from 'react-native';
 import { Provider, connect } from 'react-redux'
 import store from './redux/configure_store';
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 import {GET_RESTAURANTS} from './redux/restaurants';
 const mapStateToProps=state=>{
   return{restaurants:state.restaurants.restaurantsData}
@@ -45,6 +27,7 @@ class App extends React.Component {
 
   }
   render() {
+    
     if(this.props.restaurants){
       console.log(this.props.restaurants);
     }
