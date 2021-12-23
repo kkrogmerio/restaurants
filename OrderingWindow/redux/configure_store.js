@@ -1,0 +1,10 @@
+import { combineReducers,createStore,applyMiddleware } from "redux";
+import createSagaMiddleware from "redux-saga";
+import restaurantsReducer from "./restaurants";
+import {watcherSaga} from './sagas/rootsaga';
+const reducer=combineReducers({restaurants:restaurantsReducer});
+const sagaMiddleware=createSagaMiddleware();
+const middleware=[sagaMiddleware];
+const store=createStore(reducer,{},applyMiddleware(...middleware));
+sagaMiddleware.run(watcherSaga);
+export default store;
